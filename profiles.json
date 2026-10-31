@@ -1,0 +1,45 @@
+{
+  "qwen35_fp8_vllm": {
+    "description": "Qwen3.5-9B FP8 on single L4, vLLM. Requires a recent vLLM compatible with the model.",
+    "kind": "vllm",
+    "model_id": "qwen35_fp8",
+    "model_repo": "RedHatAI/Qwen3.5-9B-FP8-dynamic",
+    "port": 8000,
+    "args": ["--max-model-len", "8192", "--gpu-memory-utilization", "0.85", "--max-num-seqs", "1", "--enforce-eager"]
+  },
+  "gemma4_12b_qat_gguf": {
+    "description": "Gemma 4 12B official QAT Q4_0 GGUF on llama.cpp. Does not reproduce vLLM W4A16 results.",
+    "kind": "llama_cpp",
+    "model_id": "gemma4_qat_q4",
+    "model_repo": "google/gemma-4-12B-it-qat-q4_0-gguf",
+    "file": "gemma-4-12b-it-qat-q4_0.gguf",
+    "port": 8080,
+    "args": ["-ngl", "99", "-c", "8192", "-np", "1", "-fa", "on"]
+  },
+  "gemma4_12b_qat_vllm": {
+    "description": "Alternative Gemma 4 12B QAT W4A16 on vLLM; reference single-L4 speed ~28 tok/s is for this format.",
+    "kind": "vllm",
+    "model_id": "gemma4_qat_w4a16",
+    "model_repo": "google/gemma-4-12B-it-qat-w4a16-ct",
+    "port": 8000,
+    "args": ["--quantization", "compressed_tensors", "--dtype", "bfloat16", "--max-model-len", "8192", "--gpu-memory-utilization", "0.85", "--max-num-seqs", "1", "--enforce-eager"]
+  },
+  "hyperclovax_14b_q4_gguf": {
+    "description": "HyperCLOVAX 14B GGUF requires compatible llama.cpp build, preferably NAVER fork.",
+    "kind": "llama_cpp",
+    "model_id": "hyperclovax14_q4",
+    "model_repo": "naver-ellm/HyperCLOVAX-SEED-Think-14B-GGUF",
+    "file": "HyperCLOVAX-SEED-Think-14B-Q4_K_M.gguf",
+    "port": 8080,
+    "args": ["-ngl", "99", "-c", "8192", "-np", "1", "-fa", "on"]
+  },
+  "qwen38_27b_q4_gguf": {
+    "description": "Qwen3.8-27B Q4_K_M on llama.cpp, no vision projector or speculative decoder.",
+    "kind": "llama_cpp",
+    "model_id": "qwen38_27b_q4",
+    "model_repo": "ggml-org/Qwen3.8-27B-GGUF",
+    "file": "Qwen3.8-27B-Q4_K_M.gguf",
+    "port": 8080,
+    "args": ["-ngl", "99", "-c", "8192", "-np", "1", "-fa", "on"]
+  }
+}

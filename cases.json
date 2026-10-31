@@ -1,0 +1,238 @@
+[
+  {
+    "id": "it_project",
+    "domain": "it",
+    "jd": "R1 필수: Java 프로젝트 구현 경험.\nR2 필수: Spring Boot 실무 프로젝트 경험.\nR3 우대: Docker 컨테이너 배포 경험.",
+    "resume": "대학교 팀 프로젝트에서 Java로 게시판 API를 직접 구현했다. MySQL 테이블 구조를 설계했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R3": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "it_degree_vs_skill",
+    "domain": "it",
+    "jd": "R1 필수: Python으로 데이터 분석을 수행한 경험.\nR2 우대: SQL로 데이터를 조회한 경험.",
+    "resume": "정보통계학과를 졸업했다. SQL을 사용해 매출 데이터 20만 건을 직접 조회했다. Python 강의를 다음 달에 수강할 예정이다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "have"
+      }
+    }
+  },
+  {
+    "id": "it_not_assume",
+    "domain": "it",
+    "jd": "R1 필수: AWS 서버 운영 경험.\nR2 필수: Linux 명령어 사용 경험.",
+    "resume": "Linux 명령어를 사용해 로그를 확인하고 배포 스크립트를 작성했다. 클라우드 기술에 관심이 있다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "required",
+        "status": "have"
+      }
+    }
+  },
+  {
+    "id": "design_portfolio",
+    "domain": "design",
+    "jd": "R1 필수: Figma 프로토타입 제작 경험.\nR2 필수: 사용자 인터뷰 수행 경험.\nR3 우대: UI 디자인 포트폴리오 보유.",
+    "resume": "Figma로 모바일 앱 프로토타입을 직접 제작했다. 사용자 인터뷰는 아직 수행한 적이 없다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R3": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "design_or",
+    "domain": "design",
+    "jd": "R1 필수: Photoshop 또는 Illustrator를 활용한 편집 디자인 경험.\nR2 우대: 인쇄물 납품 경험.",
+    "resume": "Illustrator로 행사 포스터를 직접 제작했다. 납품 업무는 외주사 담당이었다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "design_assisted",
+    "domain": "design",
+    "jd": "R1 필수: UX 리서치를 독립적으로 기획하고 수행한 경험.\nR2 우대: 프로토타입 사용성 테스트 진행 경험.",
+    "resume": "UX 리서치 회의에 참석하여 메모를 정리했다. 사용성 테스트 참관 경험이 있다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "semi_operator",
+    "domain": "semiconductor",
+    "jd": "R1 필수: 클린룸 환경 근무 경험.\nR2 필수: 생산 설비 점검을 직접 수행한 경험.\nR3 우대: 품질검사 기록 작성 경험.",
+    "resume": "클린룸 생산라인에서 6개월간 근무했다. 설비 점검은 선임을 보조했다. 품질검사 기록은 직접 작성했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R3": {
+        "level": "preferred",
+        "status": "have"
+      }
+    }
+  },
+  {
+    "id": "semi_process",
+    "domain": "semiconductor",
+    "jd": "R1 필수: 반도체 공정 데이터 분석 경험.\nR2 우대: 설비 유지보수 수행 경험.",
+    "resume": "반도체 제조 기업의 생산 물류 업무를 했다. 설비 유지보수 프로젝트를 옆에서 관찰했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "semi_training",
+    "domain": "semiconductor",
+    "jd": "R1 필수: 반도체 식각 공정 실습 경험.\nR2 우대: 공정 수율 분석 경험.",
+    "resume": "학교에서 식각 공정 실습을 수행해 결과 보고서를 작성했다. 수율 분석 강의는 신청만 했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "construction_certificate",
+    "domain": "construction",
+    "jd": "R1 필수: 도배기능사 자격증 보유.\nR2 우대: 현장 도배 실습 경험.",
+    "resume": "도배기능사 시험 준비 중이다. 지역 직업훈련원에서 3일간 벽지 재단과 시공 실습을 직접 수행했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "have"
+      }
+    }
+  },
+  {
+    "id": "construction_safety",
+    "domain": "construction",
+    "jd": "R1 필수: 건설업 기초안전보건교육 이수 완료.\nR2 우대: 현장 작업 경험.",
+    "resume": "건설업 기초안전보건교육을 다음 주에 이수할 예정이다. 현장에서 2주간 자재 정리 작업을 했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "unknown"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "have"
+      }
+    }
+  },
+  {
+    "id": "construction_license",
+    "domain": "construction",
+    "jd": "R1 필수: 지게차운전기능사 자격증 보유.\nR2 우대: 자재 입출고 관리 경험.",
+    "resume": "지게차운전기능사 자격증을 2025년 취득했다. 자재 입출고 시스템은 교육받았지만 업무에서는 사용하지 않았다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "cooking_hygiene",
+    "domain": "food_service",
+    "jd": "R1 필수: 식품위생교육 이수 완료.\nR2 우대: 한식조리기능사 자격증 보유.",
+    "resume": "식품위생교육을 지난달 이수했다. 한식조리기능사 실기시험을 준비 중이다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  },
+  {
+    "id": "cooking_or",
+    "domain": "food_service",
+    "jd": "R1 필수: 단체급식 또는 외식업체 대량 조리 경험.\nR2 우대: 식자재 재고관리 수행 경험.",
+    "resume": "하루 150인분 단체급식 조리를 4개월간 담당했다. 식자재 발주 담당자를 보조했다.",
+    "expected": {
+      "R1": {
+        "level": "required",
+        "status": "have"
+      },
+      "R2": {
+        "level": "preferred",
+        "status": "unknown"
+      }
+    }
+  }
+]

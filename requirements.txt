@@ -1,0 +1,2 @@
+# Benchmark client uses Python 3.10+ standard library only.
+# Model serving dependencies are installed separately (llama.cpp or vLLM).
